@@ -31,5 +31,31 @@ Middlewares/
 Helpers/
 Config/
 
+## Installation & Run
+```bash
+npm install
+npm run dev
+API Endpoints
+Auth
+POST /api/auth/register
+
+POST /api/auth/login
+
+Images
+POST /api/images/upload (Protected)
+
+GET /api/images (Protected, pagination & sorting)
+
+DELETE /api/images/:id (Protected, owner only)
+
+Security
+JWT token verification
+
+Authorization checks on delete
+
+Secure file handling
+
+Environment variables protecte
+
 
 
