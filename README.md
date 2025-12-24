@@ -24,5 +24,12 @@ and delete only images they own.
 - Cloudinary
 
 ## Project Structure
+Controllers/
+Models/
+Routes/
+Middlewares/
+Helpers/
+Config/
+
 
 
